@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Syne&display=swap");
+
+:root {
+  --primary-text-color: #fff;
+  --secondary-text-color: #cbcbcb;
+  --bg-color: #010208;
+  --fnt-poppins: "Poppins", sans-serif;
+  --fnt-syne: "Syne", sans-serif;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--primary-text-color);
+  font-family: var(--fnt-poppins);
+}
