@@ -2,6 +2,7 @@
 
 :root {
   --primary-text-color: #fff;
+  --primary-dark-text-color: #010208;
   --secondary-text-color: #cbcbcb;
   --bg-color: #010208;
   --fnt-poppins: "Poppins", sans-serif;
@@ -12,4 +13,5 @@ body {
   background: var(--bg-color);
   color: var(--primary-text-color);
   font-family: var(--fnt-poppins);
+  box-sizing: border-box;
 }

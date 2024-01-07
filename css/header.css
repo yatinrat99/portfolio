@@ -1,0 +1,49 @@
+header {
+  max-width: 1240px;
+  height: 104px;
+  margin: 0 auto;
+  color: var(--primary-text-color);
+  font-family: var(--fnt-syne);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 46.222px;
+  height: 32px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li a {
+  padding: 8px 24px;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+header nav ul li.active {
+  background: var(--primary-text-color);
+  border-radius: 24px;
+  justify-content: center;
+  display: flex;
+}
+
+header nav ul li.active a {
+  color: var(--primary-dark-text-color);
+}
+
+header .hire__btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  background: transparent;
+  border-radius: 24px;
+  padding: 8px 24px;
+  color: var(--primary-text-color);
+  border: 1px solid var(--primary-text-color);
+  cursor: pointer;
+}
